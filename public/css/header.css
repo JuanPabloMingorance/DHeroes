@@ -1,0 +1,29 @@
+.header{
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header nav.navbar ul{
+    list-style: none;
+    padding-bottom: 10px;
+    
+}
+
+.header nav.navbar ul li:last-child{
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+
+.header nav.navbar ul li{
+    display: inline;
+    border-right: 1px solid black ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header nav.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
